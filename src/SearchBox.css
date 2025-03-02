@@ -1,0 +1,11 @@
+* {
+    font-family:monospace;
+}
+
+.SearchDiv {
+    text-align: center;
+}
+
+Button {
+    height: 4rem;
+}
