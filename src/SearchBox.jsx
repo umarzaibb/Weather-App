@@ -15,7 +15,7 @@ export default function SearchBox({updateInfo}) {
         temp_min: 22.69,
         description: "clear sky"
     });
-    let ApiUrl=`http://api.openweathermap.org/data/2.5/weather?q=${city}&limit=1&appid=f0732d5c2718d7ad73653ef30ef6158d&units=metric`;
+    let ApiUrl=`http://api.openweathermap.org/data/2.5/weather?q=${city}&limit=1&appid={openWeatherApi}&units=metric`;
 
     function onChangeTextField(event) {
         setCity(event.target.value);
